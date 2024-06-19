@@ -1,0 +1,62 @@
+/* Reset default margin and padding */
+body, h2, form, label, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Form container styling */
+.form-container {
+    width: 300px;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-top: 20px; /* Add margin-top to create space between h2 and form */
+}
+
+/* Form heading styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: calc(100% - 16px); /* Calculate width with padding */
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue submit button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
